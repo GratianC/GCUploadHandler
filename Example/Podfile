@@ -1,0 +1,13 @@
+use_modular_headers!
+
+platform :ios, '12.0'
+
+target 'GCUploadHandler_Example' do
+  pod 'GCUploadHandler', :path => '../'
+
+  target 'GCUploadHandler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

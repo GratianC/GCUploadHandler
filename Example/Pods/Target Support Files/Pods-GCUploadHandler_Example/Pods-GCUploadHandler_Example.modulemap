@@ -1,0 +1,6 @@
+module Pods_GCUploadHandler_Example {
+  umbrella header "Pods-GCUploadHandler_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

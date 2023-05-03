@@ -1,0 +1,6 @@
+framework module Pods_GCUploadHandler_Tests {
+  umbrella header "Pods-GCUploadHandler_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

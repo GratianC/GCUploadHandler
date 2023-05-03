@@ -1,0 +1,27 @@
+PODS:
+  - AliyunOSSiOS (2.10.16)
+  - GCUploadHandler (0.1.0):
+    - GCUploadHandler/AliOSSHandler (= 0.1.0)
+    - GCUploadHandler/AWSS3Handler (= 0.1.0)
+  - GCUploadHandler/AliOSSHandler (0.1.0):
+    - AliyunOSSiOS (~> 2.10.10)
+  - GCUploadHandler/AWSS3Handler (0.1.0)
+
+DEPENDENCIES:
+  - GCUploadHandler (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AliyunOSSiOS
+
+EXTERNAL SOURCES:
+  GCUploadHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: d624effdd24535da414a2bacf0027bedf64cc90e
+  GCUploadHandler: 3dca968e4bbdde92e08f80cda40e0a8200b20209
+
+PODFILE CHECKSUM: c3e177a28a1e6e095db8d4303f7df9793175d2c4
+
+COCOAPODS: 1.11.3

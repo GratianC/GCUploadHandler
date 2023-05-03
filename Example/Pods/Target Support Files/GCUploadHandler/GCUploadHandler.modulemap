@@ -1,0 +1,6 @@
+module GCUploadHandler {
+  umbrella header "GCUploadHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "GCUploadHandler",
+  "version": "0.1.0",
+  "summary": "A short description of GCUploadHandler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GratianC/GCUploadHandler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GratianChen": "1599625137@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:GratianC/GCUploadHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "GCUploadHandler/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "AWSS3Handler",
+      "source_files": "GCUploadHandler/Classes/AWSS3Handler/*"
+    },
+    {
+      "name": "AliOSSHandler",
+      "source_files": "GCUploadHandler/Classes/AliOSSHandler/*",
+      "dependencies": {
+        "AliyunOSSiOS": [
+          "~> 2.10.10"
+        ]
+      }
+    }
+  ]
+}
