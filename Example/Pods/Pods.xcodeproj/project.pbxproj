@@ -266,6 +266,7 @@
 		A2F4B946ACA36ED15A87933121749082 /* OSSNSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNSLogger.m; path = AliyunOSSSDK/OSSFileLog/OSSNSLogger.m; sourceTree = "<group>"; };
 		A30CB94768EE6099F411804044A07F75 /* AliyunOSSiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliyunOSSiOS.modulemap; sourceTree = "<group>"; };
 		A46588D4D663CC0DF4C53DF2CF595DDA /* Pods-GCUploadHandler_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-GCUploadHandler_Example"; path = "libPods-GCUploadHandler_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48FD2822CF559BB4D273EAB56D867B7 /* GCUploadHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GCUploadHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4B18C3432BAA09D894843CD3E7D4DC6 /* OSSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTask.h; path = AliyunOSSSDK/OSSTask/OSSTask.h; sourceTree = "<group>"; };
 		A582F60502F6C6744B68BD06A8578EB2 /* OSSGetObjectACLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSGetObjectACLRequest.m; path = AliyunOSSSDK/OSSGetObjectACLRequest.m; sourceTree = "<group>"; };
 		A865CA38156B4FE4A53B78EAE5F91303 /* Pods-GCUploadHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCUploadHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -285,7 +286,6 @@
 		BC89DBEE42DE567DB017B22626CD791D /* OSSCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationToken.m; path = AliyunOSSSDK/OSSTask/OSSCancellationToken.m; sourceTree = "<group>"; };
 		BCCFC06E22FE0FB6E013CBEAD0E89FD0 /* OSSRestoreObjectResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSRestoreObjectResult.h; path = AliyunOSSSDK/OSSRestoreObjectResult.h; sourceTree = "<group>"; };
 		BD41E37000EDFBFFB8E764C8FDCC881A /* OSSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSService.h; path = AliyunOSSSDK/OSSService.h; sourceTree = "<group>"; };
-		BE578AE3B8B50AD10B05C98A006C5DDE /* GCUploadHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GCUploadHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEA63C30B287D5794D2C985C1C3D5A77 /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenRegistration.m; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
 		BF8D7D62FCB369E9D99436B4A6DB52A1 /* aos_crc64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aos_crc64.c; path = AliyunOSSSDK/aos_crc64.c; sourceTree = "<group>"; };
 		C0528DE7788EC823AFDA656F44E1B6C9 /* OSSGetObjectACLResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetObjectACLResult.h; path = AliyunOSSSDK/OSSGetObjectACLResult.h; sourceTree = "<group>"; };
@@ -309,14 +309,14 @@
 		DDD75841DE26220AC875787AC6667FE9 /* GCAWSS3Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GCAWSS3Serialization.swift; sourceTree = "<group>"; };
 		E05DAE30F5CCD1C231102E87ED83E4A0 /* NSMutableData+OSS_CRC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+OSS_CRC.m"; path = "AliyunOSSSDK/NSMutableData+OSS_CRC.m"; sourceTree = "<group>"; };
 		E08D45614A6EB848805ECF792F17B37B /* OSSGetSymlinkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSGetSymlinkRequest.h; path = AliyunOSSSDK/OSSGetSymlinkRequest.h; sourceTree = "<group>"; };
-		E656D513BBF55FFD60C1A8E34F282A32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7442FA140892BF70E4E9CD9A1D1F5B7 /* License */ = {isa = PBXFileReference; includeInIndex = 1; path = License; sourceTree = "<group>"; };
 		E7C6422843EFA52DC7B0AE3E9A2A3A3B /* OSSClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSClient.m; path = AliyunOSSSDK/OSSClient.m; sourceTree = "<group>"; };
 		EC1F06684A97FD5DF0616B9494B53CE2 /* GCUploadHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCUploadHandler-dummy.m"; sourceTree = "<group>"; };
 		EE79A12E5BE8C923E65CAFDC6B131A84 /* OSSPutSymlinkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSPutSymlinkRequest.m; path = AliyunOSSSDK/OSSPutSymlinkRequest.m; sourceTree = "<group>"; };
 		F03B1151B9408E3CAD849A47BAD9BD8A /* Pods-GCUploadHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCUploadHandler_Example-dummy.m"; sourceTree = "<group>"; };
 		F16DE292D44006C58942A0887153E0B8 /* OSSPutSymlinkResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSPutSymlinkResult.h; path = AliyunOSSSDK/OSSPutSymlinkResult.h; sourceTree = "<group>"; };
 		F22B6EED5EA48AD6C6FA911692B55A48 /* Pods-GCUploadHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCUploadHandler_Example-umbrella.h"; sourceTree = "<group>"; };
-		F580562E95970F642FA1A60B1EAD50C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F7D0122D9F150BCA4D71B6449ACD28B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F9DFC206CC40E315618BF19B5F56CE54 /* Pods-GCUploadHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCUploadHandler_Example.modulemap"; sourceTree = "<group>"; };
 		FBD41F404B4C69F9F76E50EBE8072D5B /* OSSBolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSBolts.m; path = AliyunOSSSDK/OSSTask/OSSBolts.m; sourceTree = "<group>"; };
 		FDCA9712DA45EB4C139CF38928BD20FD /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenRegistration.h; path = AliyunOSSSDK/OSSTask/OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
@@ -381,16 +381,6 @@
 			path = GCUploadHandler/Classes/AliOSSHandler;
 			sourceTree = "<group>";
 		};
-		203728DC2A4E7DCB0AEF2535CD19F9E0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BE578AE3B8B50AD10B05C98A006C5DDE /* GCUploadHandler.podspec */,
-				E656D513BBF55FFD60C1A8E34F282A32 /* LICENSE */,
-				F580562E95970F642FA1A60B1EAD50C4 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		37175E75B829FBD8F7A27F16DCF481CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +417,16 @@
 			path = "../Target Support Files/AliyunOSSiOS";
 			sourceTree = "<group>";
 		};
+		56C698716CCC15CAB8DE977061A5551C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A48FD2822CF559BB4D273EAB56D867B7 /* GCUploadHandler.podspec */,
+				E7442FA140892BF70E4E9CD9A1D1F5B7 /* License */,
+				F7D0122D9F150BCA4D71B6449ACD28B2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		69635A97295603C647C472C5E9BE2B74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -445,7 +445,7 @@
 				276290446103EB533B90DAA53FB32F15 /* GCUploadParam.swift */,
 				1D62D080B5F7BBE78B97B0AD891CD376 /* AliOSSHandler */,
 				03D3D7F2E3262588ACC3FCDCD66523E5 /* AWSS3Handler */,
-				203728DC2A4E7DCB0AEF2535CD19F9E0 /* Pod */,
+				56C698716CCC15CAB8DE977061A5551C /* Pod */,
 				379899406D3849B2B437127805AE4228 /* Support Files */,
 			);
 			name = GCUploadHandler;
@@ -982,9 +982,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02BD52A72BBCB676B8445167F41B7DD9 /* Debug */ = {
+		09C6070B6FDC636D89AE17FCD1A78739 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDCCF001E3F9EB6769232A953F1A544 /* GCUploadHandler.debug.xcconfig */;
+			baseConfigurationReference = AD64034622D096AB45931627B5F78432 /* GCUploadHandler.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1003,10 +1003,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		23E5B6B4CA7B54F428A15D06B861673F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1122,6 +1123,32 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		529F33881D952DD07D3B54A3B6915D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDCCF001E3F9EB6769232A953F1A544 /* GCUploadHandler.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCUploadHandler/GCUploadHandler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/GCUploadHandler/GCUploadHandler.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCUploadHandler;
+				PRODUCT_NAME = GCUploadHandler;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1279,33 +1306,6 @@
 			};
 			name = Release;
 		};
-		FE5C5280A78C9E19022C18043710D344 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD64034622D096AB45931627B5F78432 /* GCUploadHandler.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/GCUploadHandler/GCUploadHandler-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = Headers/Public/GCUploadHandler/GCUploadHandler.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = GCUploadHandler;
-				PRODUCT_NAME = GCUploadHandler;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1339,8 +1339,8 @@
 		6A9B36262D5039A31884BAB2AD6B90E1 /* Build configuration list for PBXNativeTarget "GCUploadHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02BD52A72BBCB676B8445167F41B7DD9 /* Debug */,
-				FE5C5280A78C9E19022C18043710D344 /* Release */,
+				529F33881D952DD07D3B54A3B6915D9D /* Debug */,
+				09C6070B6FDC636D89AE17FCD1A78739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

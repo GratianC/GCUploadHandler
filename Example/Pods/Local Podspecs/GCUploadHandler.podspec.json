@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "12.0"
   },
+  "swift_versions": "5.0",
   "source_files": "GCUploadHandler/Classes/**/*",
   "subspecs": [
     {
@@ -33,5 +34,6 @@
         ]
       }
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }

@@ -120,7 +120,7 @@ public class GCAliOSSHandler {
                     // 返回数据为JSON格式，需要解析返回数据得到token的各个字段。
                     if let returnData = tcs.task.result as? Data,
                        let dataDic = try? JSONSerialization.jsonObject(with: returnData) as? [String : Any],
-                       let data = dataDic?["data"] as? [String : Any], // 奇怪的编译器要可选访问dataDic
+                       let data = dataDic["data"] as? [String : Any],
                        let accessKeyId = data["AccessKeyId"] as? String,
                        let accessKeySecret = data["AccessKeySecret"] as? String,
                        let securityToken = data["SecurityToken"] as? String,
