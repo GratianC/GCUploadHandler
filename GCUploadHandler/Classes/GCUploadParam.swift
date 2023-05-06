@@ -62,19 +62,19 @@ public struct GCUploadHandlerAWSS3HandlerConfig {
     /// 预上传请求URLRequest
     public private(set) var preUrlRequest: URLRequest
     /// 默认上传文件夹
-    public private(set) var defaultFoGCer: String
+    public private(set) var defaultfolder: String
     /// 预上传适配器
     public private(set) var adapter: UploadHandlerAWSS3Adapter?
     
-    public init(preUrlRequest: URLRequest, defaultFoGCer: String, adapter: UploadHandlerAWSS3Adapter? = nil) {
+    public init(preUrlRequest: URLRequest, defaultfolder: String, adapter: UploadHandlerAWSS3Adapter? = nil) {
         self.preUrlRequest = preUrlRequest
-        self.defaultFoGCer = defaultFoGCer
+        self.defaultfolder = defaultfolder
         self.adapter = adapter
     }
     
     /// 适配亚马逊云配置接口
     var awss3Config: GCAWSS3HandlerConfig {
-        GCAWSS3HandlerConfig(preUrlRequest: preUrlRequest, defaultFoGCer: defaultFoGCer, adapter: adapter)
+        GCAWSS3HandlerConfig(preUrlRequest: preUrlRequest, defaultfolder: defaultfolder, adapter: adapter)
     }
 }
 

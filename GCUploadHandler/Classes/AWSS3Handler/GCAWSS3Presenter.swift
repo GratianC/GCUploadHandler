@@ -14,17 +14,17 @@ private struct _GCAWSS3PreUploadParams {
         /// 上传文件名
         var fileName: String
         /// 上传目标文件夹
-        var foGCer: String
+        var folder: String
         
         enum CodingKeys: CodingKey {
             case fileName
-            case foGCer
+            case folder
         }
         
         func encode(to encoder: Encoder) throws {
             var container = encoder.container(keyedBy: CodingKeys.self)
             try container.encode(self.fileName, forKey: .fileName)
-            try container.encode(self.foGCer, forKey: .foGCer)
+            try container.encode(self.folder, forKey: .folder)
         }
     }
     /// 参数数组
@@ -139,9 +139,9 @@ struct GCAWSS3Presenter {
     /// 上传数据到AWSS3
     /// - Parameters:
     ///   - data: 上传Data
-    ///   - foGCer: 目标文件夹
+    ///   - folder: 目标文件夹
     ///   - completion: 完成回调
-    func uploadData(datas: [GCAWSS3UploadData], foGCer: String, completion: (([String], GCAWSS3Error?) -> Void)?) {
+    func uploadData(datas: [GCAWSS3UploadData], folder: String, completion: (([String], GCAWSS3Error?) -> Void)?) {
         
         // 主线程错误回调
         func disposeError(_ error: GCAWSS3Error) {
@@ -152,7 +152,7 @@ struct GCAWSS3Presenter {
         
         var params = _GCAWSS3PreUploadParams()
         params.appendParam(datas.map({ data in
-            _GCAWSS3PreUploadParams.GCAWSS3PreUploadParam(fileName: data.fileName, foGCer: foGCer)
+            _GCAWSS3PreUploadParams.GCAWSS3PreUploadParam(fileName: data.fileName, folder: folder)
         }))
         do {
             try requestUploadConfig(pre: params) { results, error in
@@ -212,9 +212,9 @@ struct GCAWSS3Presenter {
     /// 上传文件到AWSS3
     /// - Parameters:
     ///   - files: 上传Files
-    ///   - foGCer: 目标文件夹
+    ///   - folder: 目标文件夹
     ///   - completion: 完成回调
-    func uploadFile(files: [GCAWSS3UploadFile], foGCer: String, completion: (([String], GCAWSS3Error?) -> Void)?) {
+    func uploadFile(files: [GCAWSS3UploadFile], folder: String, completion: (([String], GCAWSS3Error?) -> Void)?) {
         
         // 主线程错误回调
         func disposeError(_ error: GCAWSS3Error) {
@@ -225,7 +225,7 @@ struct GCAWSS3Presenter {
         
         var params = _GCAWSS3PreUploadParams()
         params.appendParam(files.map({ file in
-            _GCAWSS3PreUploadParams.GCAWSS3PreUploadParam(fileName: file.fileName, foGCer: foGCer)
+            _GCAWSS3PreUploadParams.GCAWSS3PreUploadParam(fileName: file.fileName, folder: folder)
         }))
         do {
             try requestUploadConfig(pre: params) { results, error in

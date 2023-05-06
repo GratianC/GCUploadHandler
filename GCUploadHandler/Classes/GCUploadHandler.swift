@@ -127,7 +127,7 @@ public class GCUploadHandler {
     }
     
     /// 上传文件至亚马逊云目标文件夹
-    public func uploadToAWSS(files: [GCUploadHandlerFile], foGCer: String = "", uploadCompletion: UploadHandlerUploadFilesCompletion?) {
+    public func uploadToAWSS(files: [GCUploadHandlerFile], folder: String = "", uploadCompletion: UploadHandlerUploadFilesCompletion?) {
         
         _awss.uploadFile(files.map({ file in
             GCAWSS3UploadFile(fileUrl: file.fileUrl, fileName: file.fileName)

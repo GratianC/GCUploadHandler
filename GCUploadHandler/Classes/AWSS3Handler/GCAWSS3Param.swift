@@ -13,13 +13,13 @@ public struct GCAWSS3HandlerConfig {
     /// 预上传请求URLRequest
     public private(set) var preUrlRequest: URLRequest
     /// 默认上传文件夹
-    public private(set) var defaultFoGCer: String
+    public private(set) var defaultfolder: String
     /// 适配器
     public private(set) var adapter: AWSS3RequestAdapter?
     
-    public init(preUrlRequest: URLRequest, defaultFoGCer: String, adapter: AWSS3RequestAdapter? = nil) {
+    public init(preUrlRequest: URLRequest, defaultfolder: String, adapter: AWSS3RequestAdapter? = nil) {
         self.preUrlRequest = preUrlRequest
-        self.defaultFoGCer = defaultFoGCer
+        self.defaultfolder = defaultfolder
         self.adapter = adapter
     }
 }

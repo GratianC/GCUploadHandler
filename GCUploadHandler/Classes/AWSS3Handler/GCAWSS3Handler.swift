@@ -21,7 +21,7 @@ public class GCAWSS3Handler {
     /// 数据请求
     private var _presenter = GCAWSS3Presenter()
     /// 默认文件夹
-    private var _defaultFoGCer = ""
+    private var _defaultfolder = ""
 
     /// 初始化亚马逊云服务
     /// - Parameters:
@@ -31,7 +31,7 @@ public class GCAWSS3Handler {
         
         _presenter.preUrlRequest = config.preUrlRequest
         _presenter.adapter = config.adapter
-        _defaultFoGCer = config.defaultFoGCer
+        _defaultfolder = config.defaultfolder
     }
     
     /// 重置亚马逊云服务
@@ -46,24 +46,24 @@ public class GCAWSS3Handler {
     /// 图片上传
     /// - Parameters:
     ///   - data: UploadData
-    ///   - foGCer: Target file foGCer
+    ///   - folder: Target file folder
     ///   - completed: Upload complete callback
-    public func uploadData(_ data: [GCAWSS3UploadData], foGCer: String = "", completed: AWSS3UploadCompleted?) {
+    public func uploadData(_ data: [GCAWSS3UploadData], folder: String = "", completed: AWSS3UploadCompleted?) {
         
         checkServerUseful()
-        let uploadFoGCer = foGCer.isEmpty ? _defaultFoGCer : foGCer
-        _presenter.uploadData(datas: data, foGCer: uploadFoGCer, completion: completed)
+        let uploadfolder = folder.isEmpty ? _defaultfolder : folder
+        _presenter.uploadData(datas: data, folder: uploadfolder, completion: completed)
     }
     
     /// 文件上传
     /// - Parameters:
     ///   - file: UploadFile
-    ///   - foGCer: Target file foGCer
+    ///   - folder: Target file folder
     ///   - completed: Upload complete callback
-    public func uploadFile(_ file: [GCAWSS3UploadFile], foGCer: String = "", completed: AWSS3UploadCompleted?) {
+    public func uploadFile(_ file: [GCAWSS3UploadFile], folder: String = "", completed: AWSS3UploadCompleted?) {
         
         checkServerUseful()
-        let uploadFoGCer = foGCer.isEmpty ? _defaultFoGCer : foGCer
-        _presenter.uploadFile(files: file, foGCer: uploadFoGCer, completion: completed)
+        let uploadfolder = folder.isEmpty ? _defaultfolder : folder
+        _presenter.uploadFile(files: file, folder: uploadfolder, completion: completed)
     }
 }
